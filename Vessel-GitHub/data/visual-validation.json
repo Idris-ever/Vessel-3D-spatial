@@ -1,0 +1,25 @@
+{
+  "passed": true,
+  "geometrySHA256": "30e6adc681fac122da6ac5ee4ae3668d286b6f19ca02fdce7bf7b10b49b14eef",
+  "baselineGeometrySHA256": "30e6adc681fac122da6ac5ee4ae3668d286b6f19ca02fdce7bf7b10b49b14eef",
+  "graphUnchanged": true,
+  "routeUnchanged": true,
+  "panels": 2100,
+  "decorativeWalkableEdges": 0,
+  "surfaceSamples": 69216,
+  "minimumSampledWalkingClearance": 2.305628683052095,
+  "minimumPanelRadius": 6.01037548163121,
+  "addedTriangles": 3296,
+  "checks": [
+    "geometry/graph/route identical to backup",
+    "every cover attached to a real host",
+    "all visual panels below their host walking surface",
+    "sampled panel-to-stair and panel-to-deck clearance",
+    "open atrium"
+  ],
+  "limitations": [
+    "Sampled surface checks, not exhaustive mesh physics",
+    "Visual covers are excluded from the navigation graph; existing camera guard remains conservative around host geometry"
+  ],
+  "errors": []
+}

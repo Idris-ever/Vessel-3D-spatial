@@ -1,0 +1,27 @@
+{
+  "passed": true,
+  "defaultInterior": {
+    "eye": [
+      0,
+      9.6,
+      0
+    ],
+    "target": [
+      -8,
+      30,
+      -5
+    ],
+    "verticalFov": 74,
+    "nearClip": 0.04
+  },
+  "transitionSegments": 24,
+  "nearFieldSamples": 171,
+  "nearFieldObstructions": 0,
+  "tourSegments": 43,
+  "cameraGuard": "Conservative solid-envelope checks, 0.32 m padding, motion subdivided every 0.2 m; no geometry hiding",
+  "limitations": [
+    "Free-camera guard uses deck bounds and stair prisms, not triangle-mesh physics",
+    "Near-field sightline test samples the center of the viewport for four metres; final framing reviewed visually"
+  ],
+  "errors": []
+}

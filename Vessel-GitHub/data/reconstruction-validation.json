@@ -1,0 +1,93 @@
+{
+  "passed": true,
+  "authorship": "Codex geometry and validation; model evidence recorded separately",
+  "levels": [
+    0,
+    2.6,
+    5.2,
+    8.35,
+    11.5,
+    14.75,
+    18,
+    21.3,
+    24.6,
+    27.9,
+    31.2,
+    34.55,
+    37.9,
+    41.26,
+    44.62
+  ],
+  "platforms": 118,
+  "observationPlatforms": 45,
+  "restLandings": 73,
+  "stairFlights": 146,
+  "steps": 2762,
+  "reachablePlatforms": 118,
+  "route": {
+    "platforms": [
+      "V6-T0P0",
+      "V6-M0-V6-T0P0-outer",
+      "V6-T1P1",
+      "V6-M1-V6-T1P1-inner",
+      "V6-T2P0",
+      "V6-M2-V6-T2P0-inner",
+      "V6-T3P5",
+      "V6-M3-V6-T3P5-inner",
+      "V6-T4P4",
+      "V6-M4-V6-T4P4-inner",
+      "V6-T5P3",
+      "V6-M5-V6-T5P3-inner",
+      "V6-T6P2",
+      "V6-M6-V6-T6P2-inner",
+      "V6-T7P1"
+    ],
+    "stairs": [
+      "V6-S0",
+      "V6-S1",
+      "V6-S14",
+      "V6-S15",
+      "V6-S30",
+      "V6-S31",
+      "V6-S70",
+      "V6-S71",
+      "V6-S90",
+      "V6-S91",
+      "V6-S110",
+      "V6-S111",
+      "V6-S130",
+      "V6-S131"
+    ]
+  },
+  "minFlightHeadroom": 2.5329141992155746,
+  "worstPair": [
+    "V6-S29",
+    "V6-S30"
+  ],
+  "minDeckHeadroom": 2.6022744201405614,
+  "slopeRange": [
+    20.784806734086132,
+    35.35123573405295
+  ],
+  "checks": [
+    "15 ordered landing elevations; five-to-six group transition",
+    "platform standing headroom",
+    "oblique flight junction plates",
+    "graph matches generated stair geometry",
+    "endpoint deck containment and elevations",
+    "full projected stair openings within polygon edges",
+    "step rise and going",
+    "clipped polygon deck SAT overlap",
+    "full-width stair void clearance",
+    "sampled deck and flight headroom",
+    "support-to-stair sampled clearance",
+    "connected graph",
+    "explicit entrance-to-top route"
+  ],
+  "limitations": [
+    "Conceptual geometry, not an engineering or building-code certification",
+    "Headroom uses 119 samples per flight, projected full widths, a 0.45 m structure allowance and 0.18 m tread allowance; it is not exhaustive mesh collision detection",
+    "Rail openings and tour traversal verified separately in runtime"
+  ],
+  "errors": []
+}

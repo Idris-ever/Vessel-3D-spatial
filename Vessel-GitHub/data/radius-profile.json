@@ -1,0 +1,46 @@
+{
+  "description": "Photo-informed reconstruction control points, not surveyed dimensions. Radius is the stair/observation ring datum; deck edges extend beyond it.",
+  "interpolation": "shape-preserving cubic Hermite (PCHIP)",
+  "maximumRingRadius": 21,
+  "controlPoints": [
+    [
+      0,
+      0.42857142857142855
+    ],
+    [
+      0.2,
+      0.62
+    ],
+    [
+      0.45,
+      0.84
+    ],
+    [
+      0.7,
+      0.975
+    ],
+    [
+      0.82,
+      1
+    ],
+    [
+      0.92,
+      0.99
+    ],
+    [
+      1,
+      0.96
+    ]
+  ],
+  "clearanceParameters": {
+    "upperBandWeightIncrease": 0.23,
+    "bandTransitionStart": 0.45,
+    "bandTransitionSpan": 0.35,
+    "upperLaneSpreadMetres": 0.6,
+    "laneTransitionStart": 0.45,
+    "laneTransitionSpan": 0.37,
+    "baseLaneMetres": 2.8,
+    "baseDeckDepthMetres": 9.1,
+    "restRiseFraction": 0.6666666666666666
+  }
+}

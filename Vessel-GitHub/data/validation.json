@@ -1,0 +1,99 @@
+{
+  "passed": true,
+  "authorship": "Codex geometry and validation; model evidence recorded separately",
+  "levels": [
+    0,
+    2.7506557700200958,
+    5.5013115400401915,
+    8.251967310060287,
+    11.002623080080383,
+    13.753278850100479,
+    16.503934620120575,
+    19.25459039014067,
+    22.040290958163645,
+    24.966557894115926,
+    28.081788187720687,
+    31.3698495090702,
+    34.750080208625846,
+    38.13338680575056,
+    41.516693402875276,
+    44.89999999999999
+  ],
+  "platforms": 85,
+  "observationPlatforms": 80,
+  "restLandings": 5,
+  "stairFlights": 155,
+  "steps": 2620,
+  "reachablePlatforms": 85,
+  "route": {
+    "platforms": [
+      "L0P0",
+      "L1P0",
+      "L2P0",
+      "L3P0",
+      "L4P0",
+      "L5P0",
+      "L6P0",
+      "L7P0",
+      "L8P0",
+      "L9P0",
+      "L10P0",
+      "L11P0",
+      "L12P0",
+      "L13P0",
+      "L14P0",
+      "R-S14-0-cw",
+      "L15P0"
+    ],
+    "stairs": [
+      "S0-0-cw",
+      "S1-0-ccw",
+      "S2-0-cw",
+      "S3-0-ccw",
+      "S4-0-cw",
+      "S5-0-ccw",
+      "S6-0-cw",
+      "S7-0-ccw",
+      "S8-0-cw",
+      "S9-0-ccw",
+      "S10-0-cw",
+      "S11-0-ccw",
+      "S12-0-cw",
+      "S13-0-ccw",
+      "S14-0-cw-a",
+      "S14-0-cw-b"
+    ]
+  },
+  "minFlightHeadroom": 2.15084361938668,
+  "worstPair": [
+    "S13-0-cw",
+    "S14-1-ccw"
+  ],
+  "minDeckHeadroom": 5.086582649688764,
+  "slopeRange": [
+    16.842994630749285,
+    31.193797267034295
+  ],
+  "checks": [
+    "16 ordered levels with five observation platforms each",
+    "platform standing headroom",
+    "oblique flight junction plates",
+    "graph matches generated stair geometry",
+    "endpoint deck containment and elevations",
+    "full projected stair openings within polygon edges",
+    "step rise and going",
+    "clipped polygon deck SAT overlap",
+    "80 observation platforms plus five intermediate rest landings",
+    "full-width stair void clearance",
+    "sampled deck and flight headroom",
+    "support-to-stair sampled clearance",
+    "connected graph",
+    "explicit entrance-to-top route"
+  ],
+  "limitations": [
+    "Conceptual geometry, not an engineering or building-code certification",
+    "Headroom uses 119 samples per flight, projected full widths, a 0.45 m structure allowance and 0.18 m tread allowance; it is not exhaustive mesh collision detection",
+    "Rail openings and tour traversal verified separately in runtime"
+  ],
+  "errors": []
+}

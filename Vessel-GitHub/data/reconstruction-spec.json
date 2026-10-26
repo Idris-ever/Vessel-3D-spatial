@@ -1,0 +1,165 @@
+{
+  "version": "phase6-reference-reconstruction",
+  "author": "Codex",
+  "units": "metres; Y up; X east; Z north",
+  "status": "Approximate reference reconstruction; no survey or fabrication model available",
+  "verified": {
+    "height": 45.72,
+    "baseDiameter": 15.24,
+    "nominalUpperWidth": 45.72,
+    "flights": 154,
+    "landings": 80,
+    "engineeringDescription": "Inner and outer ramps shift together into a load-bearing interlayer; five lower landing groups become six above."
+  },
+  "sources": [
+    "https://heatherwick.com/project/vessel/",
+    "https://tyrensakt.com/projects/vessel/",
+    "https://tyrensakt.com/latest/vessel-story-within/",
+    "https://www.thorntontomasetti.com/project/vessel",
+    "https://www.hudsonyardsnewyork.com/press-media/press-releases/vessel-centerpiece-hudson-yards-public-square-and-gardens-begins-rise"
+  ],
+  "referenceObservations": [
+    "AKT Design.gif shows forked dog-bone modules with long horizontal landings and paired ramps; shared steel interfaces join the layers.",
+    "Eastern exterior photo shows broad horizontal landing edges between sloping flights, not deep rectangular radial paddles.",
+    "Interior views show repeated open hexagonal apertures and exposed painted steel; copper is concentrated beneath the circulation assemblies.",
+    "Published 46m and approximately50m widths differ by source; nominal46m is used here."
+  ],
+  "estimated": {
+    "normalizedFrontHalfWidth": [
+      [
+        0,
+        0.166
+      ],
+      [
+        0.15,
+        0.28
+      ],
+      [
+        0.35,
+        0.39
+      ],
+      [
+        0.6,
+        0.47
+      ],
+      [
+        0.82,
+        0.5
+      ],
+      [
+        1,
+        0.49
+      ]
+    ],
+    "normalizedSideHalfWidth": [
+      [
+        0,
+        0.16
+      ],
+      [
+        0.15,
+        0.27
+      ],
+      [
+        0.35,
+        0.38
+      ],
+      [
+        0.6,
+        0.46
+      ],
+      [
+        0.82,
+        0.49
+      ],
+      [
+        1,
+        0.48
+      ]
+    ],
+    "profileNormalization": "All coordinates divided by overall height, not by maximum radius",
+    "laneOffset": 2.05,
+    "stairWidth": 1.25,
+    "deckThickness": 0.48,
+    "structuralSoffitDepth": 0.4,
+    "railHeight": 1.1,
+    "minimumAtriumRadius": 2.2,
+    "majorElevations": [
+      0,
+      5.2,
+      11.5,
+      18,
+      24.6,
+      31.2,
+      37.9,
+      44.62
+    ],
+    "majorRadii": [
+      4.8,
+      10,
+      14.3,
+      17.1,
+      18.9,
+      20,
+      20.5,
+      20.2
+    ],
+    "majorTangentWidths": [
+      1.6,
+      2,
+      2.8,
+      3.2,
+      5.5,
+      6.2,
+      6.6,
+      6.6
+    ],
+    "intermediateOuterLandingLength": "1.1 + 3.7 * bayIndex/6, capped to retain minimum0.245m going",
+    "intermediateInnerLandingLength": "1.1 + 0.4 * bayIndex/6, same going cap",
+    "intermediateLandingWidth": 1.8,
+    "actualElevationCount": 15,
+    "majorTierCount": 8
+  },
+  "topology": {
+    "scheme": "Eight major structural tiers with two counter-running ramp layers per bay. Outer clockwise and inner counterclockwise ramps occupy distinct radial tracks and exchange at shared box landings. Intermediate landings are derived along actual ramp axes, rather than copied concentric rings.",
+    "groupsByLevel": [
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6
+    ],
+    "transition": "The sixth major landing branches at tier3. Existing five groups redistribute across tiers1\u20135; intermediate landing positions follow the changing bay geometry. Estimated topology, not an as-built graph.",
+    "layerConnections": "Both counter-running layers meet on every major landing. Mid-ramp landings follow each flight axis. Shared 0.48m-deep landing box girders and ramp boxes form the approximate load-bearing interlayer; no column forest or central mast.",
+    "footprint": "Clipped tangent-oriented polygons along a changing five-to-six-facet perimeter; open middle. Per-level center radius is a construction datum, not the outer envelope.",
+    "route": "Computed anew from generated edges; no baseline navigation coordinates reused.",
+    "groupsByMajorTier": [
+      5,
+      5,
+      5,
+      6,
+      6,
+      6,
+      6,
+      6
+    ],
+    "ground": "Five outer entrance ramps; inner counter-running layer begins above first structural tier. Ground landing footprints are cropped to their actual apertures."
+  },
+  "limits": [
+    "No verified dimensioned shop drawings found; platform widths, lane offsets, branching elevations and profiles are estimates.",
+    "Analytic geometry validation is not structural engineering certification.",
+    "Elevator, tuned mass dampers, fabrication seams and site context are omitted.",
+    "Eight major tiers plus seven intermediate elevations are used here; this is not an exact reproduction of the published16-storey/80-landing layout."
+  ]
+}

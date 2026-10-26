@@ -1,0 +1,174 @@
+{
+  "passed": true,
+  "interpolation": "shape-preserving cubic Hermite (PCHIP)",
+  "graphUnchanged": true,
+  "routeUnchanged": true,
+  "materialsLightingAndStylesUnchanged": true,
+  "peakOuterDeckLevel": 14,
+  "peakOuterDeckRadius": 26.81477920968877,
+  "crownOuterDeckRadius": 25.882950005747034,
+  "crownRetreatPercent": 3.4750582753448334,
+  "rows": [
+    {
+      "level": 1,
+      "elevation": 0,
+      "oldElevation": 0,
+      "normalizedHeight": 0,
+      "ringRadius": 9,
+      "oldRingRadius": 9,
+      "outerDeckRadius": 13.567052001079677,
+      "laneOffset": 2.8
+    },
+    {
+      "level": 2,
+      "elevation": 2.7506557700200958,
+      "oldElevation": 2.993333333333333,
+      "normalizedHeight": 0.06126182115857676,
+      "ringRadius": 10.263184133002826,
+      "oldRingRadius": 9.91599805171487,
+      "outerDeckRadius": 14.848768462632725,
+      "laneOffset": 2.8
+    },
+    {
+      "level": 3,
+      "elevation": 5.5013115400401915,
+      "oldElevation": 5.986666666666666,
+      "normalizedHeight": 0.12252364231715351,
+      "ringRadius": 11.499632656258976,
+      "oldRingRadius": 10.769591590751547,
+      "outerDeckRadius": 16.107777263565833,
+      "laneOffset": 2.8
+    },
+    {
+      "level": 4,
+      "elevation": 8.251967310060287,
+      "oldElevation": 8.98,
+      "normalizedHeight": 0.18378546347573027,
+      "ringRadius": 12.706103105704676,
+      "oldRingRadius": 11.601116128162484,
+      "outerDeckRadius": 17.33955886041068,
+      "laneOffset": 2.8
+    },
+    {
+      "level": 5,
+      "elevation": 11.002623080080383,
+      "oldElevation": 11.973333333333333,
+      "normalizedHeight": 0.24504728463430703,
+      "ringRadius": 13.90632001640127,
+      "oldRingRadius": 12.418625609733654,
+      "outerDeckRadius": 18.56754037094745,
+      "laneOffset": 2.8
+    },
+    {
+      "level": 6,
+      "elevation": 13.753278850100479,
+      "oldElevation": 14.966666666666665,
+      "normalizedHeight": 0.3063091057928838,
+      "ringRadius": 15.127867491102755,
+      "oldRingRadius": 13.225869234198152,
+      "outerDeckRadius": 19.81949715969612,
+      "laneOffset": 2.8
+    },
+    {
+      "level": 7,
+      "elevation": 16.503934620120575,
+      "oldElevation": 17.96,
+      "normalizedHeight": 0.36757092695146054,
+      "ringRadius": 16.295259919873686,
+      "oldRingRadius": 14.025025127888956,
+      "outerDeckRadius": 21.017623858213028,
+      "laneOffset": 2.8
+    },
+    {
+      "level": 8,
+      "elevation": 19.25459039014067,
+      "oldElevation": 20.953333333333333,
+      "normalizedHeight": 0.4288327481100373,
+      "ringRadius": 17.32862312227461,
+      "oldRingRadius": 14.817517360313516,
+      "outerDeckRadius": 22.084605657862184,
+      "laneOffset": 2.803542622242403
+    },
+    {
+      "level": 9,
+      "elevation": 22.040290958163645,
+      "oldElevation": 23.946666666666665,
+      "normalizedHeight": 0.49087507701923494,
+      "ringRadius": 18.21102171329973,
+      "oldRingRadius": 15.604349342869176,
+      "outerDeckRadius": 23.101944364262216,
+      "laneOffset": 2.877597685340563
+    },
+    {
+      "level": 10,
+      "elevation": 24.966557894115926,
+      "oldElevation": 26.939999999999998,
+      "normalizedHeight": 0.556048060002582,
+      "ringRadius": 19.07630980358885,
+      "oldRingRadius": 16.38626583268435,
+      "outerDeckRadius": 24.197480436954642,
+      "laneOffset": 3.0158805993721987
+    },
+    {
+      "level": 11,
+      "elevation": 28.081788187720687,
+      "oldElevation": 29.93333333333333,
+      "normalizedHeight": 0.6254295810182782,
+      "ringRadius": 19.867741045446344,
+      "oldRingRadius": 17.163841229195622,
+      "outerDeckRadius": 25.250085416106455,
+      "laneOffset": 3.1762747407743754
+    },
+    {
+      "level": 12,
+      "elevation": 31.3698495090702,
+      "oldElevation": 32.92666666666666,
+      "normalizedHeight": 0.6986603454135903,
+      "ringRadius": 20.466901735505854,
+      "oldRingRadius": 17.937531816477218,
+      "outerDeckRadius": 26.07521599294152,
+      "laneOffset": 3.316663485984158
+    },
+    {
+      "level": 13,
+      "elevation": 34.750080208625846,
+      "oldElevation": 35.92,
+      "normalizedHeight": 0.7739438799248519,
+      "ringRadius": 20.892739147643745,
+      "oldRingRadius": 18.70770864957632,
+      "outerDeckRadius": 26.6297912746367,
+      "laneOffset": 3.3949302114386115
+    },
+    {
+      "level": 14,
+      "elevation": 38.13338680575056,
+      "oldElevation": 38.913333333333334,
+      "normalizedHeight": 0.8492959199499013,
+      "ringRadius": 20.977052072692786,
+      "oldRingRadius": 19.474679286818883,
+      "outerDeckRadius": 26.81477920968877,
+      "laneOffset": 3.4
+    },
+    {
+      "level": 15,
+      "elevation": 41.516693402875276,
+      "oldElevation": 41.906666666666666,
+      "normalizedHeight": 0.9246479599749506,
+      "ringRadius": 20.77255073766674,
+      "oldRingRadius": 20.238702724955594,
+      "outerDeckRadius": 26.804127112318156,
+      "laneOffset": 3.4
+    },
+    {
+      "level": 16,
+      "elevation": 44.89999999999999,
+      "oldElevation": 44.9,
+      "normalizedHeight": 1,
+      "ringRadius": 20.16,
+      "oldRingRadius": 21,
+      "outerDeckRadius": 25.882950005747034,
+      "laneOffset": 3.4
+    }
+  ],
+  "errors": []
+}
